@@ -37,7 +37,8 @@ body {
 .lessons-list,
 .team-list,
 .filters-list,
-.projects-list {
+.projects-list,
+.footer-group {
   list-style-type: none;
 }
 
@@ -86,7 +87,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: var(--main-text-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .header-mail:hover,
@@ -106,7 +107,6 @@ body {
 }
 
 .hero-title {
-  font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -116,26 +116,22 @@ body {
   text-transform: uppercase;
 
   color: var(--main-background-color);
-  
 }
 
 .hero-button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
   border: none;
   color: var(--main-background-color);
   background-color: var(--accent-color);
-  
- 
 }
 
 .button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -152,8 +148,6 @@ body {
 .button:focus {
   background-color: #2196f3;
 }
-
-
 
 /*
 ==============================
@@ -186,7 +180,7 @@ body {
 ==============================
 */
 .team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 .team-title {
   font-weight: 700;
@@ -220,18 +214,24 @@ body {
 }
 
 .logo-footer {
-  color: #ffffff;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-decoration: none;
+  color: #ffffff;
 }
 
 .footer-addres {
-  font-family: "Roboto";
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
 /*
 ==============================
 | Filters-section
